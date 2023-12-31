@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/quizly/static/js/main.01639c44.js",
+    "static/js/787.bbaf0866.chunk.js": "/quizly/static/js/787.bbaf0866.chunk.js",
+    "static/media/radek_screen.jpg": "/quizly/static/media/radek_screen.d7c1c7b9583f2f7c4c3d.jpg",
+    "static/media/radek_screen2.jpg": "/quizly/static/media/radek_screen2.282f219c7b04509ffdba.jpg",
+    "index.html": "/quizly/index.html",
+    "main.01639c44.js.map": "/quizly/static/js/main.01639c44.js.map",
+    "787.bbaf0866.chunk.js.map": "/quizly/static/js/787.bbaf0866.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.01639c44.js"
+  ]
+}
