@@ -17,9 +17,9 @@ const NavBar = () => {
       <AppBar elevation={0} position="static" sx={{ backgroundColor: lightBlue["200"] }}>
         <MiddleContainer>
           <Toolbar disableGutters>
-            <Grid container justifyContent="flex-start" alignItems="center">
-              <Grid item xs={1}>
-                Tu bedzie logo
+            <Grid container justifyContent="flex-start" alignItems="center" spacing={1}>
+              <Grid item>
+                <img style={{ width: 32, height: 32 }} src={require("../images/ideas.png")} />
               </Grid>
               <Grid item xs={2}>
                 <Typography variant="h5" onClick={backToMain}>
