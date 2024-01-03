@@ -42,11 +42,24 @@ function QuizPage() {
             <Typography align="center" variant="h5">
               Twój wynik: {score}
             </Typography>
-            <br/><br/>
-            <Typography align="center" variant="h5">
-              { score >= 2 ? "Udało się! Oto nagroda:" : "Niestety nie udało się przejść tej kategorii" }
-            </Typography>
-            <br/><br/>
+            <br /><br />
+            {score >= 2 ? (
+              <>
+                <Typography align="center" variant="h5">
+                  Udało się, oto nagroda: {currentCategory.reward}
+                </Typography>
+                {currentCategory.rewardImage ?
+                  <>
+                    <FixedContainer>
+                      <img src={require(`../images/${currentCategory.rewardImage}`)} />
+                    </FixedContainer>
+                    <br /><br />
+                  </>
+                  : <></>}
+              </>
+              ) :
+              <Typography align="center" variant="h5">"Niestety nie udało się przejść tej kategorii"</Typography>}
+            <br /><br />
             <FixedContainer>
               <Button variant="contained" onClick={backToMain}>Strona główna</Button>
             </FixedContainer>

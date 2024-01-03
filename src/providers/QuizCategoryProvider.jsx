@@ -8,6 +8,7 @@ const QuizCategoryProvider = ({ children }) => {
     {
       id: "radek",
       title: "Radosław Duma",
+      reward: "1: '6', 2: '9'",
       questions: [
         {
           question: "W jakim miesiącu w 2022 roku Radosła Duma osiągnął rangę championa w grze Rocket League",
@@ -103,6 +104,7 @@ const QuizCategoryProvider = ({ children }) => {
     {
       id: "pilka",
       title: "Kluczowa wiedza o piłce nożnej",
+      reward: "3: 'X', 4: 'D'",
       questions: [
         {
           question: "Jaki numer koszulki miał Robert Lewandowski w Lechu Poznań",
@@ -197,6 +199,7 @@ const QuizCategoryProvider = ({ children }) => {
     {
       id: "gry",
       title: "Dobre gry",
+      reward: "5: 'M', 6: 'A', 7: 'A'",
       questions: [
         {
           question: "Jaka jest minimanlna liczba bossów, które należy pokonać żeby przejść Dark Souls 3",
@@ -292,6 +295,8 @@ const QuizCategoryProvider = ({ children }) => {
     {
       id: "cyfronet",
       title: "Cyfronet",
+      reward: "Kolejność kolorków jak na zdjęciu",
+      rewardImage: "reward.jpg",
       questions: [
         {
           question: "Ile lat ma Kaziemierz Wiatr, dyrektor Cyfronetu",
